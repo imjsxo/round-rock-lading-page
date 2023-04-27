@@ -1,39 +1,258 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container-xxl {
+  width: 100%;
+}
+
+.b-radius-40 {
+  border-radius: 40px;
+}
+
+.color-blue {
+  color: #50B2EA;
+}
+
+.bg-blue {
+  background-color: #50B2EA;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+.home-wrapper-1 {
+  padding: 0;
+  height: 840px;
+  background: url(../public/images/banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.home-wrapper-1 h2 {
+  margin-top: 84px;
+  font-weight: 800;
+  line-height: 118.5%;
+}
+
+.home-wrapper-1 p {
+  margin-top: 30px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 30px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.home-wrapper-1 .services {
+  width: -webkit-fill-available;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-float infinite 3s ease-in-out;
-  }
+button {
+  width: 192px;
+  height: 62px;
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  border: #50B2EA;
+  box-shadow: 0px 20px 40px rgba(129, 209, 255, 0.2);
+  border-radius: 10px;
+  color: #FFFFFF;
 }
 
-.App-header {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.home-wrapper-2 {
+  background: linear-gradient(to left, #50B2EA 50%, #FFFFFF 50%);
+  height: 760px;
+  padding: 0;
 }
 
-.App-link {
-  color: rgb(112, 76, 182);
+.text-content {
+  width: 559px;
+  height: 509px;
+  padding: 65px 40px;
+  float: right;
+  border-bottom-left-radius: 40px;
+  border-top-left-radius: 40px;
 }
 
-@keyframes App-logo-float {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
+.text-content h2 {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 60px;
+  margin-bottom: 20px;
+}
+
+.text-content p {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 20px;
+}
+
+.text-content p.desc {
+  color: #19435A;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
+.text-content svg {
+  font-size: 18px;
+  margin-right: 14px;
+}
+
+.image-float {
+  border: 3px solid white;
+  border-left: none;
+  width: fit-content;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+.home-wrapper-3 {
+  height: 674px;
+  padding: 0;
+  background: url(../public/images/image-3.png);
+  background-repeat: no-repeat;
+  background-size: 100% 390px;
+}
+
+.layer {
+  height: 674px;
+  background: linear-gradient(180deg, #50B2EA 390px, #FFFFFF 284px);
+  opacity: 0.94;
+}
+
+.home-wrapper-3 .col-6 {
+  text-align: center;
+}
+
+.home-wrapper-3 h2 {
+  font-weight: 700;
+  line-height: 72px;
+  margin-bottom: 50px;
+}
+
+.home-wrapper-3 h6 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  margin-top: 55px;
+}
+
+.home-wrapper-3 p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  color: #19435A;
+  margin-bottom: 20px;
+}
+
+.home-wrapper-3 img {
+  width: 180px;
+  height: 180px;
+}
+
+.home-wrapper-3 .service-group {
+  margin-right: 30px;
+}
+
+.home-wrapper-4 {
+  padding: 0;
+  background: #50B2EA;
+}
+
+.home-wrapper-4 .title {
+  text-align: center;
+}
+
+.home-wrapper-4 h2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+  margin: 50px 0;
+}
+
+.home-wrapper-4 .col-5 {
+  margin-right: 46px;
+}
+
+.home-wrapper-4 .col-5:nth-child(2),
+.home-wrapper-4 .col-5:nth-child(4) {
+  margin-right: 0;
+}
+
+.testymoni-card {
+  width: fit-content;
+  background-color: #FFFFFF;
+  padding: 30px;
+  margin-bottom: 50px;
+}
+
+.testymoni-card:nth-child(1) {
+  margin-right: 0;
+}
+
+.testymoni-card img {
+  width: 80px;
+  height: 80px;
+  margin-right: 14px;
+}
+
+.testymoni-card h4 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 14px;
+}
+
+.testymoni-card p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 10px;
+}
+
+.testymoni-card svg {
+  margin-right: 6px;
+  width: 18px;
+  height: 18px;
+}
+
+.home-wrapper-5 {
+  text-align: center;
+}
+
+.home-wrapper-5 h2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+  margin: 50px 0;
+}
+
+.home-wrapper-5 .square {
+  height: 64px;
+}
+
+.home-wrapper-5 .col-3 {
+  background-color: #a8d9f5;
+  margin-bottom: 14px;
+}
+
+.home-wrapper-5 .col-2 {
+  margin-bottom: 50px;
+}
+
+.home-wrapper-6 {
+  height: 80px;
+  background-color: #19435A;
 }
